@@ -33,7 +33,6 @@ import static com.mongodb.client.model.Updates.set;
 public class MessApplication {
 
     @Bean
-    @Autowired
     public MessageSource<Object> mongoMessageSource(MongoDbFactory mongo) {
         return new QueueMessageSource(mongo);
     }
@@ -50,8 +49,6 @@ public class MessApplication {
     public static void main(String[] args) {
         SpringApplication.run(MessApplication.class, args);
     }
-
-
 }
 
 class QueueMessageSource extends AbstractMessageSource<Object> {
