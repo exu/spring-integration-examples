@@ -1,4 +1,4 @@
-package io.exu.mongo;
+package io.exu.mongoqueue;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
@@ -33,12 +33,6 @@ import static com.mongodb.client.model.Updates.set;
 public class MessApplication {
 
     @Bean
-    ProductToOffersConverter converter(){
-        return new ProductToOffersConverter();
-    }
-
-
-    @Bean
     @Autowired
     public MessageSource<Object> mongoMessageSource(MongoDbFactory mongo) {
         return new QueueMessageSource(mongo);
@@ -48,20 +42,10 @@ public class MessApplication {
     @Autowired
     public IntegrationFlow processProduct(MongoDbFactory mongo) {
         return IntegrationFlows.from(mongoMessageSource(mongo), c -> c.poller(Pollers.fixedDelay(3, TimeUnit.SECONDS)))
-                .log(LoggingHandler.Level.ERROR)
-                .transform(Transformers.converter(converter()))
                 .log(LoggingHandler.Level.WARN)
-                .handle(mongoOutboundAdapter(mongo))
                 .get();
     }
 
-    @Bean
-    @Autowired
-    public MessageHandler mongoOutboundAdapter(MongoDbFactory mongo) {
-        MongoDbStoringMessageHandler mongoHandler = new MongoDbStoringMessageHandler(mongo);
-        mongoHandler.setCollectionNameExpression(new LiteralExpression("offers"));
-        return mongoHandler;
-    }
 
     public static void main(String[] args) {
         SpringApplication.run(MessApplication.class, args);
@@ -70,11 +54,8 @@ public class MessApplication {
 
 }
 
-
 class QueueMessageSource extends AbstractMessageSource<Object> {
 
-    private final String queryString = "{\"processed\" : false}";
-    private final String updateString = "{\"processed\" : true}";
     private volatile String collectionName = "product";
     private volatile MongoDbFactory mongoDbFactory;
 
@@ -90,7 +71,6 @@ class QueueMessageSource extends AbstractMessageSource<Object> {
 
     @Override
     protected Object doReceive() {
-        Assert.notNull(queryString, "'queryString' must not evaluate to null");
         Assert.notNull(collectionName, "'collectionName' must not evaluate to null");
 
         AbstractIntegrationMessageBuilder<Object> messageBuilder = null;
@@ -110,23 +90,6 @@ class QueueMessageSource extends AbstractMessageSource<Object> {
         }
 
         return messageBuilder;
-    }
-}
-
-class ProductToOffersConverter implements Converter<Product, Offers> {
-    @Override
-    public Offers convert(Product product) {
-        return new Offers(product, 10);
-    }
-}
-
-class Offers {
-    Product product;
-    Integer count = 0;
-
-    public Offers(Product product, Integer count) {
-        this.product = product;
-        this.count = count;
     }
 }
 
