@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9ec03df4-4fbc-4a7e-a4ed-fe693efdbb24" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UG3zKTIq1PY2e4pEqz5Bu5IZbU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.exu.mongo" />
+      <recent name="io.exu.dslSimple" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MessApplication (3)">
+    <configuration name="MessApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.exu.polling.MessApplication" />
+      <module name="mess.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.exu.polling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessApplication (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.exu.dslSimple.MessApplication" />
+      <module name="mess.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.exu.dslSimple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.exu.simpleMessaging.MessApplication" />
+      <module name="mess.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.exu.simpleMessaging.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.exu.mongo.MessApplication" />
+      <module name="mess.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.exu.mongo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MessApplication (3)" />
+        <item itemvalue="Application.MessApplication (2)" />
+        <item itemvalue="Application.MessApplication (1)" />
+        <item itemvalue="Application.MessApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ec03df4-4fbc-4a7e-a4ed-fe693efdbb24" name="Default Changelist" comment="" />
+      <created>1574969365369</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574969365369</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="768" y="1318" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1575282111888">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="768" y="227" width="554" height="575" key="#com.intellij.ide.util.MemberChooser/0.1080.1920.1080/0.0.1920.1032@0.0.1920.1032" timestamp="1575272860324" />
+    <state x="768" y="1318" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1575282111888" />
+    <state x="738" y="272" width="424" height="484" key="FileChooserDialogImpl" timestamp="1574969649618">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="738" y="272" width="424" height="484" key="FileChooserDialogImpl/0.1080.1920.1080/0.0.1920.1032@0.0.1920.1032" timestamp="1574969649618" />
+    <state width="1874" height="271" key="GridCell.Tab.0.bottom" timestamp="1575283705031">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="271" key="GridCell.Tab.0.bottom/0.1080.1920.1080/0.0.1920.1032@0.0.1920.1032" timestamp="1575273280374" />
+    <state width="1874" height="271" key="GridCell.Tab.0.bottom/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1575283705031" />
+    <state width="1874" height="271" key="GridCell.Tab.0.center" timestamp="1575283705031">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="271" key="GridCell.Tab.0.center/0.1080.1920.1080/0.0.1920.1032@0.0.1920.1032" timestamp="1575273280373" />
+    <state width="1874" height="271" key="GridCell.Tab.0.center/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1575283705031" />
+    <state width="1874" height="271" key="GridCell.Tab.0.left" timestamp="1575283705031">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="271" key="GridCell.Tab.0.left/0.1080.1920.1080/0.0.1920.1032@0.0.1920.1032" timestamp="1575273280373" />
+    <state width="1874" height="271" key="GridCell.Tab.0.left/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1575283705031" />
+    <state width="1874" height="271" key="GridCell.Tab.0.right" timestamp="1575283705031">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="271" key="GridCell.Tab.0.right/0.1080.1920.1080/0.0.1920.1032@0.0.1920.1032" timestamp="1575273280373" />
+    <state width="1874" height="271" key="GridCell.Tab.0.right/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1575283705031" />
+    <state x="443" y="92" width="1024" height="845" key="SettingsEditor" timestamp="1574969659277">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="443" y="92" width="1024" height="845" key="SettingsEditor/0.1080.1920.1080/0.0.1920.1032@0.0.1920.1032" timestamp="1574969659277" />
+    <state width="508" height="446" key="SwitcherDM" timestamp="1575272275133">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="508" height="446" key="SwitcherDM/0.1080.1920.1080/0.0.1920.1032@0.0.1920.1032" timestamp="1575272275133" />
+    <state x="613" y="1213" width="683" height="764" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1575282125048">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="613" y="1213" width="683" height="764" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1575282125048" />
+    <state x="623" y="1315" width="672" height="710" key="search.everywhere.popup" timestamp="1575281070359">
+      <screen x="0" y="1080" width="1920" height="1080" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.1080.1920.1080/0.0.1920.1032@0.0.1920.1032" timestamp="1575024703851" />
+    <state x="623" y="1315" width="672" height="710" key="search.everywhere.popup/0.1080.1920.1080/0.0.1920.1080@0.1080.1920.1080" timestamp="1575281070359" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/exu/mongo/MessApplication.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
